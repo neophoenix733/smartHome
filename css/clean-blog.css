@@ -1,8 +1,8 @@
 body {
-  font-size: 20px;
-  color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 14px;
+  font-family:arial;
 }
+
 
 p {
   line-height: 1.5;
@@ -18,9 +18,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h6 { 
+  font-weight: 5;
+  font-family:arial;
 }
 
 a {
@@ -305,6 +305,10 @@ header.masthead .post-heading .meta a {
   color: #212529;
 }
 
+.post-heading {
+  text-align:center;
+}
+
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
   color: #0085A1;
@@ -382,10 +386,6 @@ footer {
   padding: 50px 0 65px;
 }
 
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-}
 
 footer .copyright {
   font-size: 14px;
@@ -418,3 +418,5 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+

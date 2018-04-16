@@ -16,11 +16,15 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/clean-blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/fluid-gallery.css">    
 
   </head>
 
@@ -40,10 +44,10 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="categories.html">Why Go Smart?</a>
+              <a class="nav-link" href="categories.html">Going Smart</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="latest.html">Whats New?</a>
+              <a class="nav-link" href="latest.html">The Latest</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="reviews.html">Customer Reviews</a>
@@ -54,48 +58,19 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/banner-home.png')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1><small>Smart Living for a New Beginning!</small></h1>
-              <span class="subheading">New Generation of Living!</span>
+              <h1><small>Making the Transition Into Smart Homes...</small></h1>
+              <span class="subheading">See what it's like living life in the future, today!</span>
             </div>
           </div>
         </div>
       </div>
-    </header>
-
-    
-
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-              <h2 class="post-title">
-                Place your intro here
-              </h2>
-                <p class="post-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p class="post-meta">Posted by George Awad &amp; William Sullivan
-              on April 9, 2018</p>
-          </div>
-          <hr>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
+      <ul class="list-inline text-center">
               <li class="list-inline-item">
                 <a href="#">
                   <span class="fa-stack fa-lg">
@@ -121,6 +96,60 @@
                 </a>
               </li>
             </ul>
+    </header>
+
+<div class="container gallery-container">
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="img/bathroom.jpg">
+                    <img src="img/bathroom.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="img/secure-yard.jpg">
+                    <img src="img/secure-yard.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="img/dev_hc_family.jpg">
+                    <img src="img/dev_hc_family.jpg" alt="Tunnel">
+                </a>
+            </div>    
+        </div>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" id="index-main-container">
+      <div class="row">
+        <div class="col-lg- col-md-10 mx-auto">
+          <div class="post-preview">
+              <h2 class="post-title" style="text-align:center;">
+                It all starts here...
+              </h2>
+                <div class="post-subtitle">So by now, you've probably been contemplating, researching or both on going smart with your home. You have had conversations with co-workers, friends and families who have made the leap to begin their smart home journey, so why not you??
+                  Maybe it is intimidating to uproot a way of life you have always known, or it may be an issue of expense or even a concern of security! All of these are legitimate concerns, but do not even think about getting discouraged! With our rapidly growing technology today, advancements are happening every second and the demand for smart home technology grows along side it making it more affordable, more realistic and as secure for your home and family as you might imagine! Let's dive right in and see why your future home might be your new present..! 
+                </div>
+                <p class="post-meta">Posted by George Awad &amp; William Sullivan
+              on April 9, 2018</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+
             <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
           </div>
         </div>
@@ -132,6 +161,10 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
     <script src="js/clean-blog.min.js"></script>
 
   </body>
